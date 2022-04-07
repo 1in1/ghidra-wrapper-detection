@@ -1,7 +1,6 @@
 from Queue import Queue
 
 from ghidra.program.util import CyclomaticComplexity
-from cyclotomic import computeAllComplexities
 
 def computeComplexities(fnIt, mon):
     cc = CyclomaticComplexity()
